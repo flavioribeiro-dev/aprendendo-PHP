@@ -2,6 +2,8 @@
 
 // Polimorfismo POR SUBSTITUIÇÃO x Polimorfismo DE SOBRECARGA (não suportado ainda pelo PHP)
 
+// Exemplos de Polimorfismo por Substituição...
+// --- As Classes precisam ter exatamente os mesmos parâmetros em todos os casos
 
 class Animal {
     public function emitirSom() 
