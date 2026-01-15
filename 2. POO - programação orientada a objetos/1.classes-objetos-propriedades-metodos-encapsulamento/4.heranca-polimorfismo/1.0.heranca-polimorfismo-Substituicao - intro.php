@@ -21,7 +21,7 @@ echo($peixe1->emitirSom());
 class Cachorro extends Animal {
     public function emitirSom()
     {
-        return "Au Au";
+        return "Au Au <br>";
     }
 }
 
@@ -46,7 +46,7 @@ print($cachorro1->emitirSom());
 $gato1 = new Gato;
 print($gato1->emitirSom());
 
-$fila1 = new FilaBrasileiro;
-print($fila1->emitirSom());
+$fila1 = new FilaBrasileiro(5, 'dogão');
+print($fila1->emitirSom(12));
 
 print("Cachorro faz {$cachorro1->emitirSom()} e o Fila faz {$fila1->emitirSom()}");
