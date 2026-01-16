@@ -49,7 +49,7 @@ $cachorro = new Cachorro;
 $gato = new Gato;
 // print($gato->emitirSom());
 
-$fila = new FilaBrasileiro;
+$fila = new FilaBrasileiro(2, 'vamp');
 // print($fila->emitirSom());
 // print("Cachorro faz {$cachorro->emitirSom()} e o Fila faz {$fila->emitirSom()}");
 
